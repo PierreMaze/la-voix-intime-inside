@@ -49,7 +49,7 @@ function App() {
           </picture>
           <section className="journey-description" aria-labelledby="journey-title">
             <div className="section-title flex items-center gap-3"><span className="little-star" aria-hidden="true">✧</span><h2 id="journey-title">Le TRÉSOR que vous cherchez est déjà en VOUS !</h2></div>
-            <p>PROGRAMME <span translate="no" className="notranslate">"INSIDE"</span> est un parcours expérientiel en petit groupe de <strong>6 personnes maximum</strong> pour vous reconnecter à vos ressources, votre intuition et votre puissance.</p>
+            <p><strong className="offer-name">PROGRAMME <span translate="no" className="notranslate">"INSIDE"</span></strong> est un parcours expérientiel en petit groupe de <strong>6 personnes maximum</strong> pour vous reconnecter à vos ressources, votre intuition et votre puissance.</p>
             <p className="experience-line">Pas de théorie supplémentaire :<br className="mobile-break" /> vous expérimentez, vous ressentez, vous agissez.</p>
             <div className="practices flex flex-wrap" aria-label="Les pratiques du parcours">
               {['Jeux', 'Défis', 'Expériences', 'Initiations', 'Pratiques'].map(item => <span key={item}>{item}</span>)}
