@@ -74,7 +74,7 @@ function App() {
           <p className="redirect-note">Vous serez redirigé vers PayPal pour finaliser votre inscription et votre paiement.</p>
         </aside>
       </div>
-      <footer className="site-footer flex items-center justify-between gap-4"><span>La Voix Intime</span><p><span translate="no" className="notranslate">"INSIDE"</span> — Le Trésor des 9 Portes</p><span className="footer-symbol" aria-hidden="true">✧</span></footer>
+      <footer className="site-footer flex items-center justify-between gap-4"><span>La Voix Intime</span><p>PROGRAMME <span translate="no" className="notranslate">"INSIDE"</span> — Le Trésor des 9 Portes</p><span className="footer-symbol" aria-hidden="true">✧</span></footer>
     </main>
     <div className="mobile-payment"><div><strong>1 475 €</strong><span>Le parcours de 3 mois</span></div><PaymentButton compact /></div>
   </>
