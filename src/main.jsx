@@ -19,7 +19,7 @@ function Icon({ name, className = '' }) {
 
 function PaymentButton({ compact = false }) {
   return <a className={`payment-button ${compact ? 'payment-button-compact' : ''}`} href={PAYPAL_URL}>
-    <span>{compact ? 'Payer avec PayPal' : 'Rejoindre le parcours'}</span><Icon name="arrow" />
+    <span>Payez et validez</span><Icon name="arrow" />
   </a>
 }
 
